@@ -5,11 +5,19 @@
         body {
             overflow-y: scroll;
         }
+        div.correct-color {
+            color: black;
+        }
         div.fixed {
             position: fixed;
             width: 50%;
             bottom: 10px;
             color: black;
+        }
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
     <meta charset="UTF-8">
@@ -50,11 +58,41 @@
         </nav>
         </br> </br> </br>
         <!-- **************************************************************** END OF NAV BAR **************************************************************** -->
-        <h1>Welcome to the Hompage!</h1>
-        <p>
-            The internet has helped us expand our knowledge, connect with other people, and express ourselves. Since we have been using the internet for
-            decades now, why not take a few minutes to learn about how the world stays connected?
-        </p>
+        <h1 class="text-center">Domain Name System</h1>
+
+        <div class = "correct-color">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul>
+                                <li>
+                                    Domain Name Systems have the responsibility of making websites publicly available
+                                </li>
+                                <li>
+                                    DNS's are broken into numerous hierarchies and machines that allow user to access websites
+                                </li>
+                                <li>
+                                    The most popular top level domain consists of .com, .ru, .org, and .net
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class = "center-block" src ="images/DNS.png" style="width:400px;height:200px;">
+                            <ul>
+                                <li>
+                                    The Internet relies off these servers to allow for users to visit websites from anywhere across the world
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- **************************************************************** FOOTER **************************************************************** -->

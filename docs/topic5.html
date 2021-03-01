@@ -5,11 +5,19 @@
         body {
             overflow-y: scroll;
         }
+        div.correct-color {
+            color: black;
+        }
         div.fixed {
             position: fixed;
             width: 50%;
             bottom: 10px;
             color: black;
+        }
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
     <meta charset="UTF-8">
@@ -50,12 +58,47 @@
         </nav>
         </br> </br> </br>
         <!-- **************************************************************** END OF NAV BAR **************************************************************** -->
-        <h1>Welcome to the Hompage!</h1>
-        <p>
-            The internet has helped us expand our knowledge, connect with other people, and express ourselves. Since we have been using the internet for
-            decades now, why not take a few minutes to learn about how the world stays connected?
-        </p>
+        <h1 class="text-center">W3C and HTML & CSS</h1>
 
+        <div class = "correct-color">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul>
+                                <li>
+                                    The World Wide Web Consortium (W3C) is an international organization that establishes Web standards
+                                </li>
+                                <li>
+                                    These protocols and rules must be followed to ensure that computers, servers, browsers, and websites are compatible with each other
+                                </li>
+                                <li>
+                                    W3c was established in 1994 and is still in effect today
+                                </li>
+                                <li>
+                                    Hypertext Markup Language (HTML) is the language used to construct websites
+                                </li>
+                                <li>
+                                    Cascading Style Sheets is another language that's used to make websites much more visually appealing and organized
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class = "center-block" src ="images/W3C.png" style="width:400px;height:200px;">
+                            <ul>
+                                <li>
+                                    Thanks to the W3C, the internet is much more organized and properly connected and intergrated
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- **************************************************************** FOOTER **************************************************************** -->
         <div class ="fixed">

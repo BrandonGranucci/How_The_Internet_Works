@@ -5,11 +5,19 @@
         body {
             overflow-y: scroll;
         }
+        div.correct-color {
+            color: black;
+        }
         div.fixed {
             position: fixed;
             width: 50%;
             bottom: 10px;
             color: black;
+        }
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
     <meta charset="UTF-8">
@@ -50,11 +58,44 @@
         </nav>
         </br> </br> </br>
         <!-- **************************************************************** END OF NAV BAR **************************************************************** -->
-        <h1>Welcome to the Hompage!</h1>
-        <p>
-            The internet has helped us expand our knowledge, connect with other people, and express ourselves. Since we have been using the internet for
-            decades now, why not take a few minutes to learn about how the world stays connected?
-        </p>
+        <h1 class="text-center">HTTP And HTTPS Protocol</h1>
+
+        <div class = "correct-color">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul>
+                                <li>
+                                    HTTP or Hypertext Transfer Protocol is what is used between servers and browsers to talk to each other
+                                </li>
+                                <li>
+                                    This language is useful to exchange information such as HTML code
+                                </li>
+                                <li>
+                                    Your browser typically sends GET requests to obtain info like HTML code, images, or text
+                                </li>
+                                <li>
+                                    Occasionally your browser sends POST requests which give information like credit card details
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class = "center-block" src ="images/HTTP.jpg" style="width:400px;height:200px;">
+                            <ul>
+                                <li>
+                                    Without HTTP we wouldn't be able to view or access websites
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- **************************************************************** FOOTER **************************************************************** -->

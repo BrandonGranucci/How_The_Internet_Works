@@ -5,11 +5,19 @@
         body {
             overflow-y: scroll;
         }
+        div.correct-color {
+            color: black;
+        }
         div.fixed {
             position: fixed;
             width: 50%;
             bottom: 10px;
             color: black;
+        }
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
     <meta charset="UTF-8">
@@ -50,11 +58,48 @@
         </nav>
         </br> </br> </br>
         <!-- **************************************************************** END OF NAV BAR **************************************************************** -->
-        <h1>Welcome to the Hompage!</h1>
-        <p>
-            The internet has helped us expand our knowledge, connect with other people, and express ourselves. Since we have been using the internet for
-            decades now, why not take a few minutes to learn about how the world stays connected?
-        </p>
+        <h1 class="text-center">IP Addresses, Packets, and Routing</h1>
+
+        <div class = "correct-color">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul>
+                                <li>
+                                    Every computer has it's own address, known as an Internet Protocol address
+                                </li>
+                                <li>
+                                    The old IP addresses is known as the IPV4 which allows for IP addresses that contain up to 16 different numbers
+                                </li>
+                                <li>
+                                    Currently the world is transitioning to IPV6, a potential combination of up to 32 numbers and/or letters
+                                </li>
+                                <li>
+                                    IPV6 will change the number of potential addresses from 4 billion to 340 trillion
+                                </li>
+                                <li>
+                                    Data transfers over the net are broken into packets and sent to many different checkpoints before reaching their destination
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class = "center-block" src ="images/Servers.jpg" style="width:350px;height:200px;">
+                            <ul>
+                                <li>
+                                    Every machine has it's own IP address they use to know where to send packets to
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
         <!-- **************************************************************** FOOTER **************************************************************** -->

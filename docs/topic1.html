@@ -5,11 +5,19 @@
         body {
             overflow-y: scroll;
         }
+        div.correct-color {
+            color: black;
+        }
         div.fixed {
             position: fixed;
             width: 50%;
             bottom: 10px;
             color: black;
+        }
+        .center-block {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
     <meta charset="UTF-8">
@@ -50,12 +58,41 @@
         </nav>
         </br> </br> </br>
         <!-- **************************************************************** END OF NAV BAR **************************************************************** -->
-        <h1>Welcome to the Hompage!</h1>
-        <p>
-            The internet has helped us expand our knowledge, connect with other people, and express ourselves. Since we have been using the internet for
-            decades now, why not take a few minutes to learn about how the world stays connected?
-        </p>
+            <h1 class="text-center">Domain Names And ICANN</h1>
 
+    <div class = "correct-color">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                Domains are the addresses that websites have which are composed of the website name (like google) and the top level domain (.com)
+                            </li>
+                            <li>
+                                Anybody can buy any domain name they want as long as it is available
+                            </li>
+                            <li>
+                                We use domains to access any website and because they easier to remember than 16 digit addresses
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img class = "center-block" src ="images/ICANN.png" style="width:200px;height:200px;">
+                        <ul>
+                            <li>
+                                The Internet Corporation for Assigned Names & Numbers (ICANN) manages the high level domains
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
         <!-- **************************************************************** FOOTER **************************************************************** -->
         <div class ="fixed">
